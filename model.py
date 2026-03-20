@@ -6,10 +6,10 @@ data = {
     "marks": [20, 40, 50, 60, 80]
 }
 
-daf = pd.DataFrame(data)
+df = pd.DataFrame(data)
 
-X = daf[["hours"]]
-y = daf["marks"]
+X = df[["hours"]]
+y = df["marks"]
 
 model = LinearRegression()
 model.fit(X, y)
