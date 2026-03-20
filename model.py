@@ -13,5 +13,6 @@ y = df["marks"]
 
 model = LinearRegression()
 model.fit(X, y)
+User_input=int(input("Enter the total study hours :"))
+print("Prediction for",User_input," hours:", model.predict([[User_input]]))
 
-print("Prediction for 6 hours:", model.predict([[6]]))
