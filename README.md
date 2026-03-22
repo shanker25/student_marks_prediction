@@ -32,7 +32,16 @@ Along with prediction, the system also gives basic suggestions to help improve p
 * Suggestions for improvement
 
 ---
+## 📸 Sample Outputs
 
+### Low Performance Case
+![Low](output1.png)
+
+### Good Performance Case
+![Good](output2.png)
+🏆 Result
+
+---
 ## ⚙️ Tech Stack
 
 * Python
