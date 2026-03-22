@@ -1,34 +1,76 @@
-# Student Marks Prediction
+# 🎯 Student Performance Intelligence System
 
-# Description
-This is a simple machine learning project that predicts student marks based on the number of hours studied using linear regression.
+This is a simple Machine Learning project that predicts student marks based on multiple factors like study hours, sleep, phone usage, and attendance.
 
-# Features
-- Uses basic dataset
-- Trains a linear regression model
-- Predicts marks for new input
+Along with prediction, the system also gives basic suggestions to help improve performance.
 
-# Technologies Used
-- Python
-- Pandas
-- Scikit-learn
+---
 
-# How to Run
+## 🚀 Features
+
+* Predicts student marks using Random Forest
+* Takes user input for real-time prediction
+* Shows performance level (low / average / good)
+* Gives simple improvement suggestions
+* Visualizes relationship between study hours and marks
+
+---
+
+## 🧠 Input Features
+
+* Study hours
+* Sleep hours
+* Phone usage
+* Attendance
+
+---
+
+## 📊 Output
+
+* Predicted marks
+* Performance level
+* Suggestions for improvement
+
+---
+
+## ⚙️ Tech Stack
+
+* Python
+* Pandas
+* Scikit-learn
+* Matplotlib
+
+---
+
+## ▶️ How to Run
 
 1. Install dependencies:
-pip install pandas scikit-learn
+
+```
+pip install -r requirements.txt
+```
 
 2. Run the program:
-python model.py
 
-# Example Output
-Prediction for 6 hours: [approx value]
+```
+python student_performance_intelligence.py
+```
 
-# Project Structure
-- model.py → main code
-- README.md → project info
+3. Enter the student details when prompted.
 
-# Learning Outcome
-- Understanding basic ML workflow
-- Data handling using pandas
-- Model training using sklearn
+---
+
+## 📌 Notes
+
+* This project uses a small dataset for demonstration purposes.
+* It is not meant for real-world academic prediction.
+
+---
+
+## 💡 Purpose
+
+Built this project to understand how Machine Learning can be applied to real-life scenarios beyond basic predictions.
+
+---
+
+⭐ If you like this project, feel free to star it!
