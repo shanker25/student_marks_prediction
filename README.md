@@ -1,4 +1,4 @@
-# 🎯 Student Performance Intelligence System
+# Student Performance Intelligence System
 
 This is a simple Machine Learning project that predicts student marks based on multiple factors like study hours, sleep, phone usage, and attendance.
 
@@ -6,7 +6,7 @@ Along with prediction, the system also gives basic suggestions to help improve p
 
 ---
 
-## 🚀 Features
+## Features
 
 * Predicts student marks using Random Forest
 * Takes user input for real-time prediction
@@ -16,7 +16,7 @@ Along with prediction, the system also gives basic suggestions to help improve p
 
 ---
 
-## 🧠 Input Features
+## Input Features
 
 * Study hours
 * Sleep hours
@@ -25,24 +25,24 @@ Along with prediction, the system also gives basic suggestions to help improve p
 
 ---
 
-## 📊 Output
+## Output
 
 * Predicted marks
 * Performance level
 * Suggestions for improvement
 
 ---
-## 📸 Sample Outputs
+## Sample Outputs
 
 ### Low Performance Case
 ![Low](output1.png)
 
 ### Good Performance Case
 ![Good](output2.png)
-🏆 Result
+Result
 
 ---
-## ⚙️ Tech Stack
+## Tech Stack
 
 * Python
 * Pandas
@@ -51,7 +51,7 @@ Along with prediction, the system also gives basic suggestions to help improve p
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 1. Install dependencies:
 
@@ -69,14 +69,14 @@ python student_performance_intelligence.py
 
 ---
 
-## 📌 Notes
+## Notes
 
 * This project uses a small dataset for demonstration purposes.
 * It is not meant for real-world academic prediction.
 
 ---
 
-## 💡 Purpose
+## Purpose
 
 Built this project to understand how Machine Learning can be applied to real-life scenarios beyond basic predictions.
 
